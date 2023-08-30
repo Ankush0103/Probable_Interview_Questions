@@ -1,4 +1,3 @@
-
 /*
 Sort first half in ascending and second half in descending order
  */
@@ -16,7 +15,6 @@ public class Sortascdes {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
-
             }
             for(int j = n/2; j<n-1; j++)
             {
