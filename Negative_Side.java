@@ -10,7 +10,16 @@ public class Negative_Side {
         int j = 0;
         for(int i = 0; i<n; i++)
         {
-            if(arr[i]<0)
+            for(j = i + 1; j<n; j++)
+            {
+                if(arr[i]<0)
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+            /*if(arr[i]<0)
             {
                 if(i!=j)
                 {
@@ -19,7 +28,7 @@ public class Negative_Side {
                     arr[j] = temp;
                 }
                 j++;
-            }
+            }*/
         }
         for(int i = 0; i<n; i++)
             System.out.println(arr[i]);

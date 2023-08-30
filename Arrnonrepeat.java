@@ -1,3 +1,4 @@
+/* Print non repeating element of array*/
 import java.util.Arrays;
 
 public class Arrnonrepeat {
