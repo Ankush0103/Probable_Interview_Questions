@@ -21,7 +21,6 @@ public class MAxprosub {
 
             }
             res = Math.max(res, pro);
-
         }
         System.out.println(res);
         System.out.println(start);

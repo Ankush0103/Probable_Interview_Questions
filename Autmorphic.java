@@ -33,3 +33,12 @@ public class Autmorphic {
             System.out.println("Num: " + n + " and " + sq + " is not automorphic" );
     }
 }
+//
+//    int num = 5;
+//    int sq = num*num;
+//    int a = sq%10;
+//    System.out.println(a);
+//    if(a == num)
+//       System.out.println(true);
+//    else
+//       System.out.println(false);
