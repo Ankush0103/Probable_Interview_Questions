@@ -18,7 +18,7 @@ Output:
 0*/
 
 import java.util.*;
-class Main
+class Ques4
 {
     public static int operationsBinaryString (String str)
     {
