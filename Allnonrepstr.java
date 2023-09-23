@@ -1,15 +1,6 @@
 import java.util.*;
 public class Allnonrepstr {
     public static void main(String[] args) {
-        /*Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        char[] ch = s.toCharArray();
-        int n = s.length();
-        int[] freq = new int[256];
-        for(int i = 0; i<n; i++)
-            freq[s.charAt(i)]++;
-        for(int i = 0; i<256; i++)
-            System.out.println(ch[i] + " : " + freq[i]);*/
         Scanner sc = new Scanner (System.in);
         System.out.println ("Enter the string");
 
