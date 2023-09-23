@@ -40,8 +40,8 @@ _/\      _
 
 It’s clear that there is only one valley there, so we print on a new line.
  */
-import java.util.*;
-public class CountingValleys {
+
+public class WiproCountingValleys {
     public static void main(String[] args) {
         String s = "UDDDUDUUDU";
         int level = 0;

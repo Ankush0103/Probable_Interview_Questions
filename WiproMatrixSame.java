@@ -1,5 +1,4 @@
-import java.util.*;
-public class MatrixSame {
+public class WiproMatrixSame {
     public static void main(String[] args) {
         int row = 4;
         int A[][]={{1,1,1,1},{2,2,2,2},{3,3,3,3,},{4,4,4,4}};
