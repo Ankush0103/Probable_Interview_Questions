@@ -26,7 +26,7 @@ because,
        c2 = m4 + n4 + 2* m2 * n2
 We can see that a2 + b2 = c2, so instead of iterating for a, b and c we can iterate for m and n and can generate these triplets
  */
-public class PythagoreanTriplet {
+public class WiproPythagoreanTriplet {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a, b;
