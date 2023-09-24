@@ -12,9 +12,10 @@ public class Allnonrepstr {
             freq[str.charAt (i)]++;
 
         System.out.println ("The non repeating characters are : ");
+        for (int i = 0; i < 256; i++) {
+            if (freq[i]==1)    //finding the character whose frequency is 1
+                System.out.print((char) i + " ");
+        }
 
-        for (int i = 0; i < 256; i++)
-            if (freq[i] == 1)	//finding the character whose frequency is 1
-                System.out.print ((char) i + " ");
     }
 }
