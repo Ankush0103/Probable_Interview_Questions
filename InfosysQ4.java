@@ -56,22 +56,31 @@ public class InfosysQ4 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        int ans = 0;
+        int sum1 = 0;
         int energy = sc.nextInt();
         int n = sc.nextInt();
         int[] arr = new int[n];
         for(int i = 0; i<n; i++)
             arr[i] = sc.nextInt();
-        int sum = 0;
-        for(int i = 0; i<n; i++){
-            sum+=2*arr[i];
-        }
-        if(sum<energy)
-            System.out.println("-1");
-
         for(int i = 0; i<n; i++){
             if(arr[i]==energy)
-                System.out.println("1");
+                System.out.println(ans);
         }
+
+        for(int i = 0; i<n; i++) {
+            sum += arr[i];
+            sum1 += arr[i];
+            if (sum >= energy)
+                ans = i + 1;
+            else if (2 * sum1 >= energy) {
+                ans = 2 * (i + 1);
+            }
+            else
+                ans = -1;
+        }
+        System.out.println(ans);
         /*for(int i = 0; i<n; i++)
         {
             for (int j = 0; j == energy; ) {
@@ -83,10 +92,10 @@ public class InfosysQ4 {
             }
         }*/
 
-        for(int i = 0; i==energy; i++) {
+        /*for(int i = 0; i==energy; i++) {
             //System.out.println(i + 1);
             if (2 * sum >= energy)
                 System.out.println(2 * (i + 1));
-        }
+        }*/
     }
 }

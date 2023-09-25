@@ -74,7 +74,21 @@ public class InfosysQ5 {
         int[] arr = new int[villain];
         for(int i = 0; i< arr.length; i++)
             arr[i] = sc.nextInt();
-        int d=herohealth;
+        int hh = hero*herohealth;
+        int sum = 0;
+        for(int i = villain-1; i>=0; i--)
+        {
+            sum+=arr[i];
+        }
+        int ans = 0;
+        if(hh>=sum)
+            ans = 0;
+        for(int i = 0; i<villain; i++)
+        {
+
+        }
+        System.out.println(ans);
+        /*int d=herohealth;
         for(int j = (villain-1); j>=0; j--){
 
             if(d >=arr[j]){
@@ -97,6 +111,6 @@ public class InfosysQ5 {
                 j++;
                 d=hero;
             }
-        }
+        }*/
     }
 }

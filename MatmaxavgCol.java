@@ -3,7 +3,7 @@
 95 92 89
 92 90 92
 90 92 90
-Output =
+Output = 1 (Column 1 has max average)
  */
 import java.util.*;
 public class MatmaxavgCol {
