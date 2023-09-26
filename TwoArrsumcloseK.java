@@ -21,7 +21,7 @@ public class TwoArrsumcloseK {
         {
             if(Math.abs(arr1[l]+arr2[r] - k)<=min)
             {
-                min = Math.abs(arr1[l]+arr1[r]-k);
+                min = Math.abs(arr1[l]+arr2[r]-k);
                 idx1 = l;
                 idx2 = r;
             }
