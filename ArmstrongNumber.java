@@ -23,7 +23,6 @@ public class ArmstrongNumber {
         if(number==sum) {
             System.out.println("Armstrong Number");
             //Decode number will be sum of digit of even place
-
         }
         else
             System.out.println("Not Armstrong Number");
