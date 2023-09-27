@@ -34,7 +34,7 @@ public class AdobeQ4 {
         }
         int min = Integer.MAX_VALUE;
         int idx = 0;
-        // Frequency of ifrst min index so we start from last sos that first willoverlap last.
+        // Frequency of first min index so we start from last sos that first will overlap last.
         for(int i = 255; i>=0; i--)
         {
             if(freq[i]==0)
