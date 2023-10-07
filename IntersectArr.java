@@ -1,5 +1,5 @@
 import java.util.*;
-public class InntersectArr {
+public class IntersectArr {
     public static void intersect(int[] arr1, int[] arr2)
     {
         int n1 = arr1.length;

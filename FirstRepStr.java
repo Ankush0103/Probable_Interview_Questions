@@ -1,4 +1,4 @@
-public class FirstNonRepStr {
+public class FirstRepStr {
     public static void main(String[] args) {
         String s = "cdadcda";
         int n = s.length();
