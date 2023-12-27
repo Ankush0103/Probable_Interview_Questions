@@ -4,7 +4,7 @@ Output - 3 (prints number which occur only 1 time
  */
 import java.util.*;
 
-public class OddoccDig {
+public class  OddoccDig {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
             int num = sc.nextInt();

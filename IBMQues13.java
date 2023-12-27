@@ -1,7 +1,6 @@
 /*
 Write a program to find duplicate characters in a given string.
  */
-
 public class IBMQues13 {
     public static void main(String[] args) {
         String s = "abanjklk";

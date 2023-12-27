@@ -2,8 +2,8 @@
 Enter three 4-digit numbers
 Input- 3521 2452 1352
 Output - 1522 (Concat 1dig max + 10dig min + 100dig max + 1000dig min)
-
  */
+
 import java.util.*;
 public class ConcatenateDigit {
     public static void main(String[] args) {

@@ -38,6 +38,7 @@ public class Ques8 {
             else
                 odd.add(arr[i]);
         }
+        int ans = 0;
         Collections.sort(even);
         Collections.sort(odd);
         return (even.get(even.size()-2)+odd.get(odd.size()-2));

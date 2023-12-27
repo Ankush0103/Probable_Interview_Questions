@@ -15,8 +15,31 @@ Test Cases:
 
 import java.util.*;
 public class Ques17 {
+
+    public static boolean isPal(int n)
+    {
+        int rev = 0;
+        int rem;
+        int num = n;
+        while(n>0)
+        {
+            rem = n%10;
+            rev = 10*rev + rem;
+            n = n/10;
+        }
+        if(rev==num)
+            return true;
+        else
+            return false;
+    }
     public static void main(String[] args) {
-
-
+         Scanner sc = new Scanner(System.in);
+         int l = sc.nextInt();
+         int u = sc.nextInt();
+         for(int i = l; i<u; i++)
+         {
+             if(isPal(i))
+                 System.out.print(i + " ");
+         }
     }
 }

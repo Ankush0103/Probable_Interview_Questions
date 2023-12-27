@@ -1,7 +1,6 @@
 /*
 Fourth Node from end in Linked List
  */
-
 public class IBMQues12 {
     class Node
     {

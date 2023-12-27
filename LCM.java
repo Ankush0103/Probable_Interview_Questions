@@ -16,4 +16,18 @@ public class LCM {
         int lcm = (a*b)/hcf;
         System.out.println(lcm);
     }
+    /*
+    public static void main(String[] args) {
+        int a = 60;
+        int b = 80;
+        for(int i = a; i<Integer.MAX_VALUE; i++)
+        {
+            if(i%a==0 && i%b==0)
+            {
+                System.out.println(i);
+                break;
+            }
+        }
+    }
+     */
 }

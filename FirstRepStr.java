@@ -20,7 +20,6 @@ public class FirstRepStr {
                 if(arr[j]==ch)
                 {
                     idx = j;
-                    //ans = arr[j];
                 }
             }
         }

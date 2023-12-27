@@ -27,7 +27,5 @@ public class Oasis {
             }
         }
         System.out.println(cost);
-
     }
-
 }
