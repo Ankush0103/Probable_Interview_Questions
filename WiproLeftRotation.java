@@ -75,7 +75,6 @@ public class WiproLeftRotation {
                 arr[i] = arr[i+1];
             for(int i = 0; i<n; i++)
                 arr[n-1] = first;
-
         }
         for(int i = 0; i<n; i++)
             System.out.print(arr[i] + " ");

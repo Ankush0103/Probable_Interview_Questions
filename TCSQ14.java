@@ -33,6 +33,13 @@ public class TCSQ14 {
         int binaryint = Integer.parseInt(binary);
         int dec = 0;
         int p = 0;//Stores power
+        // Above code can also be written as
+//        while(n!=0)
+//        {
+//            binary = (n&1) + binary; // String binary
+//            n = n>>1;
+//        }
+//        int binaryint = Integer.parseInt(binary);
         while(binaryint>0)
         {
             int temp = binaryint%10;
