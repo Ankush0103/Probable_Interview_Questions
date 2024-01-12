@@ -1,8 +1,7 @@
 
-
 class Valid_Palindrome {
     public boolean isPalindrome(String s) {
-        // Two Pointers Solution
+        // Two Pointers Solution(Leetcode)
         int i = 0;
         int j = s.length() - 1;
         while(i<j)

@@ -5,7 +5,6 @@ class string_pal {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String reverseStr = "";
-
         int strLength = str.length();
 
         for (int i = (strLength - 1); i >=0; --i) {

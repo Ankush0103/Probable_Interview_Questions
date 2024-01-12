@@ -27,7 +27,7 @@ public class SumOddEvenDig {
             rev/=10;
             c++;
         }
-        System.out.println(evensum);
-        System.out.println(oddsum);
+        System.out.println("Even index digit sum: " + evensum);
+        System.out.println("Even index digit sum: " + oddsum);
     }
 }

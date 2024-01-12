@@ -18,7 +18,6 @@ public class MAxprosub {
                     res = pro;
                 }
                 pro*=arr[j];
-
             }
             res = Math.max(res, pro);
         }
