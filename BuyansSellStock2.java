@@ -39,9 +39,7 @@ public class BuyansSellStock2 {
                 diff = 0;
             }
         }
-
         return res + diff;
-
     }
     public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 /*
-Subarray with zero sum
+Max Subarray with zero sum
  */
 public class SubarrZeroSum {
     public static void main(String[] args) {

@@ -4,6 +4,7 @@
  of digits present in a binary number and finally add all of them.
  */
 
+//int decimal = Integer.parseInt(binary, 2);
 import java.util.*;
 public class BToDec {
     public static void main(String[] args) {

@@ -1,3 +1,6 @@
+/*
+String binary = Integer.toBinaryString(num);
+ */
 import java.util.Scanner;
 
 public class DecTOBin {

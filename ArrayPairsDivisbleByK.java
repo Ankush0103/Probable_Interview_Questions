@@ -38,9 +38,10 @@ public class ArrayPairsDivisbleByK {
         int flag = 0;
         int m = 0;
         int l = 0;
+        int c = 1;
         int[] arr1 = new int[n];
         int[] arr2 = new int[n];
-        for(int i = 0; i<n; i++)
+        for(int i = 1; i<n; i++)
         {
             for(int j = i + 1; j<n; j++)
             {
@@ -52,8 +53,13 @@ public class ArrayPairsDivisbleByK {
                 }
             }
         }
-        System.out.println(m);
-        System.out.println(l);
+        System.out.println(c);
+        if(flag==1&&c==n/2)
+            System.out.println(true);
+        else
+            System.out.println(false);
+        /*System.out.println(m);
+        System.out.println(l);*/
 //        if(flag==1&&m==n/2&&l==n/2)
 //            System.out.println(true);
 //        else

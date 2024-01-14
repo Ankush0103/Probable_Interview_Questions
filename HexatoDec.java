@@ -1,5 +1,5 @@
 import java.util.*;
-
+//Decimal to hex Code -: String hex = Integer.toHexString(num);
 // Max handshakes -> n*(n-1)/2
 public class HexatoDec {
     public static int convert(String hex)
