@@ -18,7 +18,6 @@ public class Ques29 {
             for(int j = i; j<i+k; j++)
             {
                 sum+=arr[j];
-
             }
             if(sum>max)
                 max = sum;

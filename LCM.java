@@ -12,9 +12,18 @@ public class LCM {
                 hcf=i;
             }
         }
+        int l = 0;
+        for(int i = 1; i<Integer.MAX_VALUE; i++)
+        {
+            if((i%a==0)&&(i%b==0)) {
+                l=i;
+                break;
+            }
+        }
         System.out.println(hcf);
         int lcm = (a*b)/hcf;
         System.out.println(lcm);
+        System.out.println(l);
     }
     /*
     public static void main(String[] args) {

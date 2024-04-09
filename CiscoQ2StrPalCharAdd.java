@@ -31,9 +31,6 @@ public class CiscoQ2StrPalCharAdd {
                 ans += s.substring(0, i);
                 break;
             }
-
-            /*else
-                ans+=*/
         }
         String res = "";
         for(int i = ans.length()-1; i>=0; i--)

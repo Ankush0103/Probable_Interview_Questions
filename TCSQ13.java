@@ -18,7 +18,7 @@ public class TCSQ13 {
             if(s.charAt(i)<='u')
                 res += (char)(s.charAt(i)+5);
             else
-                res+= (char)(s.charAt(i)-'v'+'a');
+                res += (char)(s.charAt(i)-'v'+'a');
         }
         System.out.println(res);
     }

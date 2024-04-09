@@ -1,3 +1,7 @@
+/*
+Input - Hello
+Output -2ll1H
+ */
 import java.util.*;
 public class VowBinRev {
     public static void main(String[] args) {
